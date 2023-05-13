@@ -1,0 +1,8 @@
+weight=170
+height=74
+gender=true
+bb=true
+db=true
+kb=true
+lower=5
+upper=200

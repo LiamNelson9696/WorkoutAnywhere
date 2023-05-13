@@ -1,0 +1,10 @@
+bb  Deadlift
+bb  Bent-Over Row
+db  Single-Arm Row
+bb  Landmine row
+kb  Farmer's Carry
+db  Farmer's Carry
+db  Kroc Row
+bb  Pendlay Row
+bb  Meadows Row
+bb  Power Clean

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/workout">
+
+    <TextView
+        android:id="@+id/pg6"
+        android:layout_width="143dp"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="256dp"
+        android:layout_marginBottom="647dp"
+        android:gravity="center"
+        android:text="Weight Range"
+        android:textColor="#000000"
+        android:textSize="20sp"></TextView>
+
+    <Button
+        android:id="@+id/btn6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="152dp"
+        android:layout_marginBottom="51dp"
+        android:background="#39618B"
+        android:text="Continue"
+        app:backgroundTint="@null" />
+
+    <EditText
+        android:id="@+id/editTextNumber2"
+        android:layout_width="209dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="442dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/editTextNumber4"
+        android:layout_width="211dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="338dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="462dp"
+        android:scaleX="2"
+        android:scaleY="2"
+        android:text="Weight(Starting)"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="55dp"
+        android:layout_marginBottom="357dp"
+        android:scaleX="2"
+        android:scaleY="2"
+        android:text="Weight(Ending)"
+        android:textColor="#000000" />
+
+</RelativeLayout>

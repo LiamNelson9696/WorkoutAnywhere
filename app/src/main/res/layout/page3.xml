@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/workout">
+
+    <TextView
+        android:id="@+id/pg3"
+        android:layout_width="212dp"
+        android:layout_height="117dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="195dp"
+        android:layout_marginBottom="609dp"
+        android:gravity="center"
+        android:text="Select Workout Style"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"></TextView>
+
+    <TextView
+        android:id="@+id/pg"
+        android:layout_width="389dp"
+        android:layout_height="106dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="494dp"
+        android:background="#39618B"
+        android:gravity="center"
+        android:text="Select Workout Type"
+        android:textColor="#F6EEEE"
+        android:textSize="20sp"></TextView>
+
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="153dp"
+        android:layout_marginBottom="40dp"
+        android:background="#39618B"
+        android:backgroundTint="#39618B"
+        android:text="Continue"
+        app:backgroundTint="@null" />
+
+
+    <Switch
+        android:id="@+id/switch8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="169dp"
+        android:layout_marginBottom="381dp"
+        android:scaleX="2"
+        android:scaleY="2"
+        android:text="Pull"
+        android:textColor="#000000" />
+
+    <Switch
+        android:id="@+id/switch9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="174dp"
+        android:layout_marginBottom="322dp"
+        android:scaleX="2"
+        android:scaleY="2"
+        android:text="Legs"
+        android:textColor="#000000" />
+
+    <Switch
+        android:id="@+id/switch10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="173dp"
+        android:layout_marginBottom="253dp"
+        android:scaleX="2"
+        android:scaleY="2"
+        android:text="Push"
+        android:textColor="#000000" />
+
+
+</RelativeLayout>

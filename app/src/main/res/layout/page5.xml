@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/workout">
+
+    <TextView
+        android:id="@+id/pg5"
+        android:layout_width="224dp"
+        android:layout_height="116dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="187dp"
+        android:layout_marginBottom="604dp"
+        android:gravity="center"
+        android:text="Available Equipment"
+        android:textColor="#F8F6F6"
+        android:textSize="20sp"></TextView>
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="152dp"
+        android:layout_marginBottom="54dp"
+        android:background="#39618B"
+        android:text="Continue"
+        app:backgroundTint="@null" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chipCpp1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="324dp"
+        android:layout_marginBottom="514dp"
+        android:text="Barbell" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chipCpp2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="179dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="242dp"
+        android:layout_marginBottom="512dp"
+        android:text="Kettlebell" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chipCpp3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/chipCpp1"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="-302dp"
+        android:layout_marginBottom="511dp"
+        android:text="Dumbell" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chipCpp4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/chipCpp1"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="-48dp"
+        android:layout_marginBottom="246dp"
+        android:text="Row Machine" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chipCpp5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="287dp"
+        android:layout_marginBottom="429dp"
+        android:text="Leg Extention" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chipCpp6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/chipCpp1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="168dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="-198dp"
+        android:layout_marginBottom="428dp"
+        android:text="Lat Pulldown" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chipCpp7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="510dp"
+        android:layout_marginEnd="135dp"
+        android:layout_marginBottom="173dp"
+        android:text="Smith Machine" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chipCpp8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/chipCpp1"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="-307dp"
+        android:layout_marginBottom="428dp"
+        android:text="Leg Curl" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chipCpp9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/chipCpp1"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="-27dp"
+        android:layout_marginBottom="339dp"
+        android:text="Leg Press" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chipCpp10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/chipCpp1"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="-198dp"
+        android:layout_marginBottom="339dp"
+        android:text="Cable Machine" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chipCpp11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/chipCpp1"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="-324dp"
+        android:layout_marginBottom="337dp"
+        android:text="Fly Machine" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chipCpp12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/chipCpp1"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="-188dp"
+        android:layout_marginBottom="247dp"
+        android:text="Shoulder Press" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chipCpp13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/chipCpp1"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="-323dp"
+        android:layout_marginBottom="246dp"
+        android:text="Latteral Raise" />
+
+</RelativeLayout>
